@@ -47,6 +47,7 @@ persist.fuse_sdcard=true
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true 
+debug.hwui.skia_atrace_enabled=false
 
 # sensor properties are moved to device.mk
 #
