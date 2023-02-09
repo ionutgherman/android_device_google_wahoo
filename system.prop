@@ -16,9 +16,6 @@ debug.gralloc.enable_fb_ubwc=1
 # system props for the cne module
 persist.cne.feature=1
 
-# Display
-debug.force_no_blanking=true
-
 # system props for the MM modules
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
