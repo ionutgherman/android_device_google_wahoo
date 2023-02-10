@@ -52,12 +52,6 @@ persist.radio.calls.on.ims=1
 # Simulate sdcard on /data/media
 persist.fuse_sdcard=true
 
-# SkiaGL Threaded
-debug.renderengine.backend=skiaglthreaded
-debug.hwui.renderer=skiagl
-renderthread.skia.reduceopstasksplitting=true 
-debug.hwui.skia_atrace_enabled=false
-
 # sensor properties are moved to device.mk
 #
 
