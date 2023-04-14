@@ -9,7 +9,7 @@ allow system_server persist_sensors_file:file r_file_perms;
 allow system_server wlan_device:chr_file rw_file_perms;
 
 allow system_server sysfs_battery_supply:dir search;
-allow system_server sysfs_battery_supply:file { getattr open read };
+allow system_server sysfs_battery_supply:file { getattr open read write };
 
 # TODO(b/73123675): BatterySaver needs access to cpufreq. Remove this access
 # once cpufreq functionality is hidden behind a HAL.
