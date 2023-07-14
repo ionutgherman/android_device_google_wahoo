@@ -45,9 +45,24 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.radio.rat_on=combine
+persist.rcs.supported=1
 persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
+persist.vendor.radio.calls.on.ims=1
+persist.vendor.radio.force_ltd_sys_ind=1
+persist.vendor.radio.data_ltd_sys_ind=1
+persist.vendor.radio.enable_temp_dds=true
+persist.vendor.radio.force_on_dc=true
+persist.radio.dynamic_sar=false
+persist.vendor.radio.data_con_rprt=1
+persist.vendor.radio.mbn_load_flag=3
+persist.vendor.radio.mbn_wait_s=60
+persist.vendor.radio.manual_nw_rej_ct=1
+persist.vendor.radio.data_con_rprt=1
+ro.telephony.default_cdma_sub=0
+ril.subscription.types=RUIM
+persist.radio.force_on_dc=true
 
 # Simulate sdcard on /data/media
 persist.fuse_sdcard=true
