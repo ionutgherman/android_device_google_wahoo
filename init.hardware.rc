@@ -387,10 +387,6 @@ on boot
     mkdir /dev/socket/qmux_gps 0770 gps gps
     chmod 2770 /dev/socket/qmux_gps
 
-    # Smart Charging
-    chown system system /sys/class/power_supply/battery/charge_disable 
-    chmod 0660 /sys/class/power_supply/battery/charge_disable 
-
     # Create NETMGR daemon socket area
     mkdir /dev/socket/netmgr 0750 radio radio
 
